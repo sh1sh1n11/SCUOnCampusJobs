@@ -10,6 +10,12 @@
         <activity
             android:name=".AssignShift"
             android:label="@string/title_activity_assign_shift" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
     </application>
